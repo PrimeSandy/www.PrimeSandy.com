@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto",sans-serif;
+}
+a{  
+    color: whitesmoke;
+    text-decoration: none;
+}
+.et{
+    text-transform: uppercase;
+    margin-right: 10%;
+}
+header{
+    
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+@media screen and (max-width:700px){
+    header{
+    
+    font-size: 0.6rem;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 5%;
+}
+}
+.nav-links{
+    list-style: none;
+}
+li{
+    
+    font-size: 1rem;
+    display:inline;
+     margin: 8px; 
+
+
+}
+
+
+@media screen and (max-width:700px){
+li{
+    
+    font-size: 0.5rem;
+    display: inline;
+    margin: 6px;
+    
+    
+
+}
+}
+#head-box{
+    border-radius: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:5px;
+    margin-right: 5px;
+    background-image: linear-gradient(174deg, #ff0000fc 40%,rgb(0, 0, 40) 60%); 
+
+}
+@media screen and (max-width:700px){
+    #head-box{
+        background-image: linear-gradient(174deg, #1cd200d7 40%,rgb(0, 0, 40) 60%); 
+    }
+}
+
+.three-buttans:hover{
+    color: red;
+}
+@media screen and (max-width:700px){
+
+    .three-buttans:hover{
+        color: red;
+        
+}
+
+}
+.bg-full{
+     background: url('') no-repeat center center/cover; /*bg img transparent */
+}
+#vid{
+    display: inline-block;
+}
+/* lowerbody */
+    .addex{
+    font-size: 1.2rem;
+}
+@media screen and (max-width:700px){
+    .addex{
+    font-size: 0.6rem;
+}
+}
+@media screen and (max-width:700px){
+    .hrr{
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+}
+
+
+
+  .types{
+        
+        display:inline;
+        width: 26%;
+        font-size: 1rem;
+        margin-bottom: 1%;
+    }
+     .name{
+        
+        display:inline;
+        width: 26%;
+        font-size: 1rem;
+        margin-bottom: 1%;
+    }
+    .date{
+         
+        display:inline;
+        width: 26%;
+        font-size: 1rem;
+        margin-bottom: 1%;
+    }
+
+@media screen and (max-width:700px){
+    .date{
+         
+       display: inline;
+        width: 51%;
+        font-size: 0.5rem;
+    }
+}
+
+
+   .amount{
+         
+        display:inline;
+        width: 25%;
+        font-size: 1rem;
+        margin-bottom: 1%;
+    }
+
+
+
+    
+@media screen and (max-width:700px){
+    .amount{
+         
+       display: inline;
+        width: 51%;
+        font-size: 0.5rem;
+    }
+}
+
+
+   .Description{
+         
+        display:inline;
+        width: 26%;
+        font-size: 1rem;
+        margin-bottom: 1%;
+    }
+
+@media screen and (max-width:700px){
+    .Description{
+         
+       display: inline;
+        width: 51%;
+        font-size: 0.5rem;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .types{
+        
+        display: inline;
+        width: 51%;
+        font-size: 0.5rem;
+    }
+}
+@media screen and (max-width:700px){
+    .name{
+        
+        display: inline;
+        width: 51%;
+        font-size: 0.5rem;
+    }
+}
+
+
+@media screen and (max-width:700px){
+#subb{
+    font-size: 2dvi;
+    width:50px;
+    height:25px;
+}
+}
+#innerbox{
+    margin-left: 30%;
+    
+    border-radius:5px;
+    border-color: black;
+    border-style: solid;
+    height: 80%;
+    width: 40%;
+    background: url('bgtrans.jpg') no-repeat center center/cover; /*bg img transparent */
+}
+@media screen and (max-width:700px){
+    #innerbox{
+    margin-left: 20%;
+    
+    border-radius:5px;
+    border-color: black;
+    border-style: solid;
+    height: 80%;
+    width: 60%;
+    background: url('bgtrans.jpg') no-repeat center center/cover; /*bg img transparent */
+}
+}
+@media screen and (max-width:700px){
+    .box-text-size{
+        font-size: 0.6rem;
+       
+    }
+    .tblfull{
+         margin-left: 5%;
+        margin-right: 5%;
+    }
+    .inner-content{
+         font-size: 0.5rem;
+    }
+}
+
+.bg-image{
+    background: url("bg2.jpg") no-repeat center center/cover;
+}
