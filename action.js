@@ -13,4 +13,7 @@ document.getElementById('subb').addEventListener('click',function(){
 function exitPage() {
   window.location.href = "https://www.google.com"; // or your desired exit page
 }
+function oldpts() {
+  window.location.href = "https://sandydude5677688787879.on.drv.tw/www.parallelTracker-Sandy.com/"; 
+}
 //   window.location.href = "table.html";
